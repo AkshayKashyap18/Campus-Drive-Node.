@@ -118,6 +118,11 @@ Campus-Drive-Node/
 * GET /api/reports/student-participation → Student participation (registered vs attended)
 
 * GET /api/reports/top-active-students → Top N active students
+ ## The detailed list of test cases and irm commands (with results and screenshots) are included in docs/ReportDocument.pdf
+Please refer it.
+
+### UI wireframe
+[Link](https://app.visily.ai/projects/bb475886-2191-43c3-9f85-e2ed8c97071c/boards/2170985)
 
 ## Documentation
 * Design Document → docs/DesignDocument.pdf
@@ -126,6 +131,35 @@ Campus-Drive-Node/
 
 * AI Usage Proof → docs/AI-Usage-Proof.pdf
 
-* UI Wireframe (optional) → docs/UI-Wireframe.pdf
+* UI Wireframe  → docs/UI-Wireframe.pdf
+  
+.gitignore (if we want and avoid committing large/unnecessary files)
+```
+  # Node dependencies
+  node_modules/
 
-##.gitignore (if we want and avoid committing large/unnecessary files)
+  # Logs
+  npm-debug.log*
+  yarn-debug.log*
+  yarn-error.log*
+
+  # SQLite database
+  db.sqlite
+
+  # Environment variables
+  .env
+
+  # Build / dist
+  dist/
+  build/
+
+  # OS files
+  .DS_Store
+  Thumbs.db
+
+  # Optional: if you add frontend later
+  frontend/node_modules/
+  frontend/dist/
+
+
+
