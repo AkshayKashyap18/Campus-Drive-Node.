@@ -1,4 +1,4 @@
-# Campus Drive Event Management (Backend Prototype)
+# Campus Drive Event Management (Prototype)
 ## Overview
 This is a backend prototype for a Campus Drive Event Management system.
 It simulates event creation, student registrations, attendance, feedback collection, and reporting.
